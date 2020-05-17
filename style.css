@@ -1,4 +1,6 @@
 
+  @import "import-styles.css";
+
 body {
     text-align: center;
 }
@@ -11,6 +13,6 @@ h1 {
 header {
     background-color: orange;
 }
-p{
+p {
     font-size: 20px;
 }
