@@ -1,11 +1,20 @@
+
  body {
      color: #878787;
     margin: 0; 
  }
 
 .main-header {
-    background-color: orange;
+    background-color: orange;  /* This makes our header baxkground orange */
 }
+
+/*
+birds are great
+go and eat some
+they taste like bbq
+*/
+
+
 
 .title {
     color: white;
@@ -43,3 +52,21 @@ h3 {
 a:link {
     color: orange;
   }
+
+  a:visited {
+    color: lightblue;
+  }
+
+  a:hover {
+      color:forestgreen;
+  }
+
+  a:active {
+      color:lightcoral;
+  }
+
+  a:focus {
+      color:white;
+      background-color: orange;
+  }
+
