@@ -2,6 +2,7 @@
  body {
      color: #878787;
     margin: 0; 
+    font-size: 150%;
  }
 
 .main-header {
@@ -14,11 +15,14 @@ go and eat some
 they taste like bbq
 */
 
-
-
 .title {
     color: white;
     font-size: 26px;
+}
+
+.primary-content, 
+.secondary-content {
+    width: 60%;
 }
 
 ol li {
