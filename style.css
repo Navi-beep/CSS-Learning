@@ -40,8 +40,6 @@ h3 {
     border-top: 2px solid lightgray;
 }
 
-#main-footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    border-bottom: solid 10px orange ;
-}
+a:link {
+    color: orange;
+  }
