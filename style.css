@@ -13,6 +13,7 @@ body {
     background-color: #ffa949;
     padding-top: 170px;
     height: 850px;
+    background-image: url('mountain.jpeg');
 }
 
 .primary-content,
