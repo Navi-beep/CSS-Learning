@@ -1,4 +1,8 @@
 
+* {box-sizing: border-box;
+}
+
+
 body {
     color: #878787;
     margin: 0; 
@@ -7,13 +11,16 @@ body {
 
 .main-header {
     background-color: #ffa949;
+    padding-top: 170px;
+    height: 850px;
 }
 
-/*
-birds are great
-go and eat some
-they taste like bbq
-*/
+.primary-content,
+.main-header,
+.main-footer {
+    text-align: center;
+}
+
 
 .title {
     color: white;
@@ -22,8 +29,13 @@ they taste like bbq
 
 .primary-content, 
 .secondary-content {
-    width: 60%;
+    width: 75%;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
     margin: auto;
+    max-width: 900px;
+
 }
 
 .wildlife {
@@ -55,7 +67,7 @@ h2 {
     text-decoration: underline;
     font-weight: normal;
     line-height: 1.1;
-    margin-bottom: .5em; /*26px*/
+    margin-bottom: 0 0 .5em; /*26px*/
 }
 
 h3 {
@@ -63,8 +75,14 @@ h3 {
     color: #48525c;
     line-height: 1.2;
     margin-bottom: 1.7; /*34px*/
+    
 
 }
+.tent {
+    margin:auto;
+    width: 600px;
+}
+
 
 /*li {
     display: inline-block;
@@ -116,6 +134,11 @@ font-size: 1.25em;
 border-bottom:  3px solid;
 padding: 0 9px 3px;
 margin-top: 20px;
-display: inline;
+display: inline-block;
 
+}
+
+img {
+    max-width: 100%;
+    margin-bottom: 20px;
 }
