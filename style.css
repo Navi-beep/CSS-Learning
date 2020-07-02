@@ -10,13 +10,11 @@ body {
 }
 
 .main-header {
-    background-color: #ffa949;
     padding-top: 170px;
     height: 850px;
-    background-image: url('mountain.jpeg');
-    background-size: ;
-    background-repeat: no-repeat;
-    background-position: center;
+
+    background:  #ffa949 url('mountain.jpeg') no-repeat center; 
+    background-size: cover;
 }
 
 .primary-content,
@@ -44,12 +42,20 @@ body {
 
 .wildlife {
     color: white;
-    background-color: #434a52;
+    background: #434a52 url('owl.jpeg') no-repeat center;
+    background-size: cover;
     padding: 18% 24%;
     border-top: 10px solid #ffa949;
     margin: 105px 0 60px;
     
 }
+
+.cats {
+    color: white;
+    mix-blend-mode: difference;
+
+}
+
 
 ol li {
     
@@ -68,7 +74,8 @@ h1 {
 
 h2 {
     font-size: 53px;
-    text-decoration: underline;
+    color: white;
+    mix-blend-mode: difference;
     font-weight: normal;
     line-height: 1.1;
     margin-bottom: 0 0 .5em; /*26px*/
