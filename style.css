@@ -54,7 +54,7 @@ a:link {
   }
 
 a:visited {
-    color: lightblue;
+    color: rgb(4, 100, 133);
   }
 
 a:hover {
@@ -167,11 +167,3 @@ a:active {
     clear: both;
   }
 
-
-
-
-  .cats {
-    color: white;
-    mix-blend-mode: difference;
-
-}
