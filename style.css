@@ -1,5 +1,4 @@
 
-
 * {
 box-sizing: border-box;
 }
@@ -28,6 +27,8 @@ h1 {
                  0 5px 10px rgba(0,0,0,.25),
                  0 10px 10px rgba(0,0,0,.2),
                  0 20px 20px rgba(0,0,0,.15);
+    margin: 12px 0 0 ;
+
 }
 
 h2 {
@@ -97,6 +98,10 @@ a:active {
 .title {
     color: white;
     font-size: 1.625rem; /* 26px / 16px*/
+    letter-spacing: .065em;
+    font-weight: 200;
+    border-bottom: 2px solid ;
+    padding: 10px;
 }
 
 .intro {
